@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Bellefair';
+  src: url('../assets/fonts/Bellefair-Regular.ttf');
+}
+
+:root {
+  --Black: #0B0D17;
+  --White: #FFFFFF;
+  --Lavender: #D0D6F9;
+}
+
+body {
+  font-family: 'Bellefair';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
