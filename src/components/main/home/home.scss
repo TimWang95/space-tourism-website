@@ -1,0 +1,129 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../assets/home/background-home-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 81px;
+    padding-top: 112px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    h5 {
+      margin-bottom: 16px;
+      color: var(--Lavender);
+      font-family: 'Barlow Condensed';
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2.7px;
+    }
+    h1 {
+      margin-bottom: 18px;
+      color: var(--White);
+      font-family: 'Bellefair';
+      font-size: 5rem;
+      font-weight: 400;
+      line-height: 100px;
+    }
+    p {
+      text-align: center;
+      color: var(--Lavender);
+      font-family: 'Barlow Condensed';
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 25px;
+    }
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+
+    button {
+      width: 150px;
+      height: 150px;
+      background: var(--White);
+      border-radius: 50%;
+      font-family: 'Bellefair';
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: 1.25px;
+
+      transition: .5s ease;
+    }
+
+    button:hover {
+      box-shadow: 0 0 50px hsl(0, 0%, 100%);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {    
+    background-image: url(../../../assets/home/background-home-tablet.jpg);
+
+    .content-container {
+      margin-bottom: 156px;
+      padding-top: 202px;
+      padding-right: 159px;
+      padding-left: 159px;
+      h5 {
+        margin-bottom: 24px;
+        font-size: 1.25rem;
+        letter-spacing: 3.375px;
+      }
+    
+      h1 {
+        margin-bottom: 24px;
+        font-size: 9.375rem;
+        line-height: 150px;
+      }
+    
+      p {
+        font-size: 1rem;
+        line-height: 28px;
+      }
+    }
+
+    .btn-container {
+      button {
+        width: 242px;
+        height: 242px;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .home {
+    display: flex;
+    justify-content: space-between;
+    padding: 387px 165px 131px 165px;
+    background-image: url(../../../assets/home/background-home-desktop.jpg);
+
+    .content-container {
+      padding: 0;
+      width: 445px;
+
+      h5 {}
+
+      h1 {}
+
+      p {}
+    }
+
+    .btn-container {
+      button:hover {
+        box-shadow: 0 0 70px hsl(0, 0%, 100%);
+      }
+    }
+  }
+}
