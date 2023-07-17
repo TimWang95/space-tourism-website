@@ -8,6 +8,13 @@
   src: url('../assets/fonts/BarlowCondensed-Regular.ttf')
 }
 
+@mixin font-setting($size, $weight, $letter-spacing, $color) {
+  font-size: $size;
+  font-weight: $weight;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
 :root {
   --Black: #0B0D17;
   --White: #FFFFFF;
