@@ -33,7 +33,7 @@ function Destination({ data }) {
 
   return (
     <>
-      <div className="destination">
+      <section  className="destination">
         <h4 className="destination-title"><span>01</span>PICK YOUR EDSTINATION</h4>
         <div className="destination-content">
           <img src={image} alt={destination.name} />
@@ -67,7 +67,7 @@ function Destination({ data }) {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }
