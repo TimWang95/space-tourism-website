@@ -37,7 +37,6 @@ function Crew({ data }) {
   return (
     <>
       <section className="crew">
-        {/* <h4 className="crew-title"><span>02</span>MEET YOUR CREW</h4>         */}
         {width < 768 ? (
           <div>
             <h5 className="crew-title"><span>02</span>MEET YOUR CREW</h5>  
