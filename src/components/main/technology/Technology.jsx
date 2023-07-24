@@ -7,7 +7,6 @@ import vehiclePortrait from "src/assets/technology/image-launch-vehicle-portrait
 import capsulePortrait from "src/assets/technology/image-space-capsule-portrait.jpg";
 import spaceportPortrait from "src/assets/technology/image-spaceport-portrait.jpg";
 
-
 function Technology({ data }) {
   const [technology, setTechnology] = useState(data[0])
   const [isActive, setIsActive] = useState(0);
@@ -29,7 +28,6 @@ function Technology({ data }) {
       default:
         return null;
     }
-    console.log(image)
   }
 
   return (

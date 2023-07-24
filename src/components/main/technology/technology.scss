@@ -60,6 +60,13 @@
             button:hover, button:hover::after {
               background: var(--White);
               color: #000;
+              opacity: 0.4;
+            }
+          }
+          li.btn-active {
+            button, button::after {
+              background: var(--White);
+              color: #000;
             }
           }
         }
