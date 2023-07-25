@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useActive from 'src/hooks/useActive';
 import useWidthSize from 'src/hooks/useWidthSize';
 
@@ -11,22 +12,30 @@ function Menu() {
       <nav className="menu">
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="" className="nav-link"><span>00</span>HOME</a>
+            <Link to="*">
+              <a href="/" className="nav-link"><span>00</span>HOME</a>
+            </Link>
           </li>
         </ul>
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="" className="nav-link"><span>01</span>DESTINATION</a>
+            <Link to="/destination">
+              <a href="/" className="nav-link"><span>01</span>DESTINATION</a>
+            </Link>
           </li>
         </ul>
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="" className="nav-link"><span>02</span>CREW</a>
+            <Link to="/crew">
+              <a href="/" className="nav-link"><span>02</span>CREW</a>
+            </Link>
           </li>
         </ul>
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="" className="nav-link"><span>03</span>TECHNOLOGY</a>
+            <Link to="technology">
+              <a href="/" className="nav-link"><span>03</span>TECHNOLOGY</a>
+            </Link>
           </li>
         </ul>
       </nav>
