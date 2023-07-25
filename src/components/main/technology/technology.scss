@@ -100,6 +100,7 @@
     background-image: url(../../../assets/technology/background-technology-tablet.jpg);
 
     .technology-title {
+      margin-top: calc(136px - 89px);
       margin-left: 38.5px;
       margin-bottom: 60px;
       @include font-setting(1.25rem, 400, 3.375px, var(--White));
@@ -159,6 +160,7 @@
     background-image: url(../../../assets/technology/background-technology-desktop.jpg);
     
     .technology-title {
+      margin-top: 0;
       margin-left: 155px;
       margin-bottom: 0;
       @include font-setting(1.75rem, 400, 4.725px, var(--White));

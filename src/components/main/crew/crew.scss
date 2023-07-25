@@ -189,6 +189,7 @@
 
         .crew-title {
           position: unset;
+          margin-top: 12px;
           margin-bottom: 154px;
           @include font-setting(1.75rem, 400, 4.725px, var(--White));
         }

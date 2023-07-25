@@ -119,7 +119,7 @@
 
     .destination-title {
       position: absolute;
-      top: 100px;
+      top: 136px;
       left: 38.5px;
       font-size: 1.25rem;
       letter-spacing: 3.37px;
@@ -181,6 +181,7 @@
     .destination-title {
       top: 212px;
       left: 166px;
+      @include font-setting(1.75rem, 400, 4.725px, var(--White));
     }
 
     .destination-content {
