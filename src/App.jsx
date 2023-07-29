@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header, Home, Destination, Crew, Technology } from 'src/components/index';
-import RootLayout from "src/components/RootLayout"
 import 'src/styles/index.scss';
 
 import data from 'src/data/data.json'
