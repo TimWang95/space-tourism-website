@@ -1,89 +1,32 @@
 # Frontend Mentor - Space tourism website
 
-![Design preview for the Space tourism website coding challenge](./preview.jpg)
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
-## Welcome! 👋
+## Screenshot
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. Our challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+![screenshot1](./public/screenshot.gif)
 
-**To do this challenge, you need a strong understanding of HTML, CSS, and JavaScript.**
+## Links
 
-## The challenge
+- Solution URL: [GitHub repo](https://github.com/TimWang95/space-tourism-website/tree/main)
+- Live Site URL: [solution Demo](https://main--luminous-basbousa-303c8a.netlify.app/)
 
-Your challenge is to build out this multi-page space tourism website and get it looking as close to the design as possible.
 
-**This project is a collaboration between us, Scrimba, and Kevin Powell. If you'd like to see how Kevin would tackle the project, you can [follow along on Scrimba's free course](https://scrimba.com/learn/spacetravel).**
+## Built with
+- ![REACT](https://camo.githubusercontent.com/23ffa6f1c3fd28afe74a4aef1de92971625bcefaecb3b241ad8d57a63f9dc823/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163742d2532333430346435393f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374)
+- ![SASS](https://camo.githubusercontent.com/8849f369ac031cc842a4ab4248c7f7db6a4b593cad1f2d1c01d3aeb6f0f8dca7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536173732d4343363639393f7374796c653d666f722d7468652d6261646765266c6f676f3d73617373266c6f676f436f6c6f723d7768697465)
 
-If you're working through it yourself, please use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## What I Learnd
+- Using useState to control the navbar menu and products index.
+- Using `window.innerWidth` gets the inner width of the window.
+- Using react-router-dom to control the current page.
 
-If you choose to use a JS-heavy approach, we provide a local `data.json` file for the different page data. This means you'll be able to pull the data from there instead of using the separate `.html` files.
+## Author
+- [![My GitHub](https://camo.githubusercontent.com/843009ef549f1199c4d4682e94d2afa964a6e6b156669d2f823a949bdc3ae027/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47697468756225323050726f66696c652d3133313331333f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465)](https://github.com/TimWang95)
+- [![@TimWang95](https://camo.githubusercontent.com/1ee177622c1f9c0a437d6bc2e1680ba9ee19632f4b3b5c29e24b71544f9850ab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46454d25323050726f66696c652d6638663966383f7374796c653d666f722d7468652d6261646765266c6f676f3d46726f6e74656e642d4d656e746f72266c6f676f436f6c6f723d626c61636b)](https://www.frontendmentor.io/profile/TimWang95)
 
-Your users should be able to:
 
-- View the optimal layout for each of the website's pages depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each page and be able to toggle between the tabs to see new information
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+## Acknowledgments
 
-## Where to find everything
-
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. The design download comes with a `README.md` file as well to help you get set up.
-
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes.
-
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project.
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+- Challenge was provided by [Frontend Mentor](https://www.frontendmentor.io/home)
