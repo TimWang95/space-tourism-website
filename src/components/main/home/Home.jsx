@@ -1,5 +1,3 @@
-import bgMobile from 'src/assets/home/background-home-mobile.jpg'
-
 function Home() {
   return (
     <>
