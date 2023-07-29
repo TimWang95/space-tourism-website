@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Header, Home, Destination, Crew, Technology } from 'src/components/index';
+import { Header, Home, Destination, Crew, Technology, Footer } from 'src/components/index';
 import 'src/styles/index.scss';
 
 import data from 'src/data/data.json'
@@ -15,6 +15,7 @@ function App() {
           <Route path="crew" element={<Crew data={data.crew} />}/>
           <Route path="technology" element={<Technology data={data.technology} />}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
