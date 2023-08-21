@@ -37,7 +37,7 @@ function Technology({ data }) {
           <h5 className="technology-title"><span>03</span>SPACE LAUNCH 101</h5>  
           <div className="technology-body">
             <picture className="img-container">
-              <source media="(min-width: 1440px)" srcset={image[1]}/>
+              <source media="(min-width: 1440px)" srcSet={image[1]}/>
               <img src={image[0]} alt={technology.name} />
             </picture>
             <div className="technology-content">
